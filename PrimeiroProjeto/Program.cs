@@ -19,7 +19,7 @@
             Console.WriteLine("qual é a sua idade?");
             idade = int.Parse (Console.ReadLine());
 
-            Console.WriteLine("qual é a saus cidade?");
+            Console.WriteLine("qual é a sua cidade?");
             cidade = Console.ReadLine();
 
             Console.WriteLine("NOME - {0} \n IDADE - {1} \n CIDADE - {2}", nome, idade, cidade);
@@ -37,7 +37,7 @@
             div = n1 / n2;
             mult = n1 * n2;
 
-            
+            Console.WriteLine("os resultados são: \n SOMA - {0} \n SUBTRAÇÃO - {1} \n MULTIPLICAÇÃO - {2} \n DIVISÃO - {3} ",soma, subt,mult,div);
         }
     }
 }
